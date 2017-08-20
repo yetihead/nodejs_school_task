@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="panel">
+         <form action="ajax/success.json" type="get" id="myForm">
+
+            <label for="fio">ФИО</label>
+            <input data-validator="fio" type="text" name="fio" id="fio"/>
+
+            <label for="email">Email</label>
+            <input data-validator="email" type="text" name="email" id="email"/>
+
+            <label for="phone">Телефон</label>
+            <input data-validator="phone" type="text" name="phone" id="phone"/>
+
+            <button type="button" id="submitButton">Отправить</button>
+         </form>
+
+         <div id="resultContainer"></div>
+      </div>
+
+      <script src="index.js"></script>
+   </body>
+</html>

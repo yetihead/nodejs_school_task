@@ -1,0 +1,41 @@
+.panel {
+   padding: 10px;
+   margin: 20px auto;
+   width: 250px;
+   border: 1px solid darkcyan;
+   box-sizing: border-box;
+}
+
+#resultContainer {
+   padding: 5px;
+   margin-top: 10px;
+}
+
+#resultContainer:empty {
+   display: none;
+}
+
+#submitButton {
+   padding: 10px;
+}
+
+label {
+   font-size: .8em;
+   color: grey;
+}
+
+input {
+   margin-bottom: 10px;
+   border: 1px solid grey;
+}
+
+input,
+button {
+   width: 100%;
+   font-size: 1em;
+   box-sizing: border-box;
+}
+
+.error {
+   border: 1px solid red;
+}
